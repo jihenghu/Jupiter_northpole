@@ -1,0 +1,67 @@
+# =========================
+# Data files
+# =========================
+*.csv
+*.h5
+*.nc
+*.png
+*.pdf
+*.jpg
+# =========================
+# CMake / build directories
+# =========================
+_deps/
+CMakeFiles/
+*.cmake
+CMakeCache.txt
+Makefile
+
+
+# =========================
+# Project directories to ignore
+# =========================
+data/
+examples/
+lib/
+python/
+src/
+tests/
+tools/
+
+# =========================
+# C/C++ headers
+# =========================
+*.hpp
+
+# =========================
+# Shell scripts
+# =========================
+debug.sh
+release.sh
+
+# =========================
+# Python cache / artifacts
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+.venv/
+
+# =========================
+# IDE / editor files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
